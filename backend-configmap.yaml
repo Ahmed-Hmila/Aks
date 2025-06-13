@@ -6,6 +6,7 @@ metadata:
 data:
   PORT: "8000"
   NODE_ENV: "production"
-  BASE_URL: "http://api.test.com:31181"        # Backend exposé sur 31181
-  FRONTEND_URL: "http://52.249.243.127:3000"     # update si tu a supprimer les ressourse groupes
+  BASE_URL: "http://api.test.com"       
+  FRONTEND_URL: "http://api.test.com"
+     # update si tu a supprimer les ressourse groupes
 

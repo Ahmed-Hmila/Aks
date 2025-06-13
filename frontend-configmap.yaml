@@ -4,4 +4,4 @@ metadata:
   name: frontend-configmap
   namespace: production
 data:
-  VITE_API_BASE_URL: "http://api.test.com"
+ VITE_API_BASE_URL: "http://backend-service:8000"
