@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ahmedhmila/cooptastic-network-frontend-app:v-12
+        image: ahmedhmila/cooptastic-network-frontend-app:v-13
         ports:
         - containerPort: 3000
         resources:
