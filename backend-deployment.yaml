@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ahmedhmila/cooptastic-backend:v-4
+        image: ahmedhmila/cooptastic-backend:v1.0.1
         ports:
         - containerPort: 8000
         resources:
