@@ -32,4 +32,10 @@ spec:
             name: backend-configmap
         - secretRef:
             name: backend-secrets
- 
+        volumeMounts:
+        - name: pdf-storage
+          mountPath: /usr/src/app/src/pdfs
+      volumes:
+      - name: pdf-storage
+        persistentVolumeClaim:
+          claimName: pdf-storage-pvc
